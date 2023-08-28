@@ -695,6 +695,9 @@ a{
         margin: 50px;
         text-align: center;
     }
+    .nav  #select li::after{
+        height: 0;
+    }
     .nav .login{
         position: absolute;
         right: 50px;
