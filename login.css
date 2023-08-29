@@ -98,3 +98,26 @@ a{
     animation: slideLeft 1s ease forwards;
     animation-delay: calc(0.2s * var(--i));
 }
+
+
+/*-----------------Animation css--------------*/
+@keyframes SR {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(-0);
+        opacity: 1;
+    }
+}
+@keyframes slideLeft {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(-0);
+        opacity: 1;
+    }
+}
